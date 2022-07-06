@@ -24,8 +24,9 @@ code {
   min-height: 400px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .item {
@@ -70,4 +71,17 @@ code {
 }
 .switch.active::after {
   left: calc(100% - 30px + 3px);
+}
+
+.description {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #263238;
+}
+
+.description em {
+  font-style: normal;
+  font-weight: 900;
 }

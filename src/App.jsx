@@ -14,7 +14,10 @@ export function App() {
   return (
     <div className="App">
       <div className="center">
-        <p>Your product will be {description}</p>
+        <p className="description">
+          Your product will be <br />
+          <em>{description}</em>
+        </p>
 
         <div className="item">
           <p>Fast</p>
